@@ -1,0 +1,142 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(19, 83, 62);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    margin-bottom: 100px;
+}
+
+h2 {
+    font-size: 35px;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    color: rgb(255, 255, 255);
+}
+
+#currency-text {
+    margin-right: 150px;
+}
+
+#currency {
+    width: 140px;
+    text-align: start;
+}
+
+#main {
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    padding: 50px;
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#title {
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#purchase-button {
+    width: 120px;
+    height: 50px;
+    background-color: rgb(55, 189, 99);
+    border: 5px solid rgb(14, 85, 49);
+    font-weight: 900;
+    margin-bottom: 20px;
+    transition: all ease-in-out 0.1s;
+}
+
+#purchase-button:hover {
+    background-color: rgb(80, 207, 122);
+    cursor: pointer;
+    border: 5px solid rgb(25, 114, 69);
+}
+
+#purchase-button:active {
+    background-color: rgb(114, 255, 161);
+    border: 5px solid rgb(35, 134, 85);
+    font-size: 13px;
+}
+
+#amount-text {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+#amount {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#price1 {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(190, 231, 204);
+    padding: 10px;
+}
+
+#inventory {
+    height: fit-content;
+    padding: 20px;
+    width: 900px;
+    border: 3px solid black;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#inventory-text {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.item {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: rgb(190, 231, 204);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item p {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#sell-button {
+    background-color: rgb(216, 44, 44);
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    color: rgb(223, 223, 223);
+}
+
+#sell-button:hover {
+    cursor: pointer;
+}
